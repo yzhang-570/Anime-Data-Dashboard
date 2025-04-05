@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
+![Anime_DataDashboard](https://github.com/user-attachments/assets/71084f48-d26f-441e-a311-0b4364de70fc)
 GIF created with ScreenToGif
 
 ## Notes
