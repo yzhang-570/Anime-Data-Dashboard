@@ -14,12 +14,61 @@
   width: 20vw;
 }
 
+
+
 #dashboard-div {
   background-color: rgb(145, 145, 145);
   width: 80vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2.5vh;
+}
+
+#stat-div {
+  background-color: rgb(211, 211, 211);
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  /* width: 80vw; */
+}
+
+.stat-card-div {
+  background-color: white;
+  padding: 2rem;
+  max-width: 20vw;
+}
+
+
+
+#search-div {
+  background-color: rgb(211, 211, 211);
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5vw;
+}
+
+#search-bar {
+  height: 2.5vh;
+}
+
+#slider-div {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+#datacolumns-div {
+  background-color: rgb(211, 211, 211);
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
 }
 
 .center-children {
