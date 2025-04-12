@@ -15,6 +15,8 @@ function Layout() {
   const [searchText, setSearchText] = useState("")
   const[sliderValue, setSliderValue] = useState(0)
 
+  console.log(animeData)
+  
   useEffect(() => {
   const fetchAnimeData = async () => {
       // fetch [number] animes

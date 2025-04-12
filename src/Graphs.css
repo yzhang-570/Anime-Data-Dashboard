@@ -1,0 +1,29 @@
+#header-div {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+#graphs-div {
+    background-color: rgb(227, 227, 227);
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://wallpapers.com/images/hd/aesthetic-anime-background-uniiofevfptrbv8t.jpg");
+    background-size: 180vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chart-div {
+    width: 70vw;
+    border-radius: 15px;
+    height: 60vh;
+    background-color: rgba(225, 237, 236, 0.729);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
