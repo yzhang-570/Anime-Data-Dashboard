@@ -12,19 +12,48 @@
 #sidebar-div {
   background-color: white;
   width: 20vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
 }
 
+#sidebar-header {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2vh;
+}
 
+#sidebar-btn {
+  background-color: rgb(225, 237, 236);
+  padding: 1.25rem 1.5rem;
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+.link {
+  color: black;
+  transition: color 0.25s;
+}
+
+.link:hover {
+  color: rgb(99, 136, 154);
+  text-decoration-line: underline;
+}
 
 #dashboard-div {
   background-color: rgb(205, 227, 228);
   width: 80vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 2.5vh;
-  /* overflow: auto; */
+  overflow: auto;
+  background-image: url("https://wallpapers.com/images/hd/aesthetic-anime-background-uniiofevfptrbv8t.jpg");
+  background-size: 180vh;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #stat-div {
@@ -36,15 +65,18 @@
 
 .stat-card-div {
   background-color: white;
-  padding: 2rem;
+  padding: 1.4rem;
   max-width: 20vw;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
 #data-search-div {
-  background-color: rgb(225, 237, 236);
-  border-radius: 15px;
+  background-color: rgba(225, 237, 236, 0.729);
+  border-radius: 15px 15px 0px 0px;
   width: 55vw;
   display: flex;
   flex-direction: column;
@@ -63,12 +95,12 @@
 }
 
 #search-bar {
-  background-color: white;
+  background-color: rgb(241, 241, 241);
   height: 5vh;
   border: 0px solid black;
 }
 
-button {
+#search-btn {
   background-color: rgb(225, 237, 236);
   height: 5vh;
   border: 0px solid black;
@@ -78,7 +110,6 @@ button {
   display: flex;
   flex-direction: row;
 }
-
 
 
 #datacolumns-div {
